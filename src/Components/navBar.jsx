@@ -43,28 +43,6 @@ class Navbar extends Component {
             >
               User Profile
             </NavLink>
-
-            <div className="navbar-item has-dropdown is-hoverable">
-              <NavLink activeClassName="is-active" className="navbar-link">
-                More
-              </NavLink>
-
-              <div className="navbar-dropdown">
-                <NavLink activeClassName="is-active" className="navbar-item">
-                  About
-                </NavLink>
-                <NavLink activeClassName="is-active" className="navbar-item">
-                  Jobs
-                </NavLink>
-                <NavLink activeClassName="is-active" className="navbar-item">
-                  Contact
-                </NavLink>
-                <hr className="navbar-divider" />
-                <NavLink activeClassName="is-active" className="navbar-item">
-                  Report an issue
-                </NavLink>
-              </div>
-            </div>
           </div>
 
           <div className="navbar-end">

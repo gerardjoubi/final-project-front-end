@@ -7,7 +7,7 @@ import LandingPage from "./pages/landingPage";
 import LoginForm from "./pages/loginForm";
 import NotFound from "./pages/notFound";
 import UserProfile from "./pages/userProfile";
-
+import RentalForm from "./pages/rentalForm";
 function App() {
   return (
     <React.Fragment>
@@ -17,6 +17,7 @@ function App() {
           <Route path="/login" component={LoginForm} />
           <Route path="/accueil" component={LandingPage} />
           <Route path="/profile" component={UserProfile} />
+          <Route path="/rental-form" component={RentalForm} />
           <Route path="/not-found" component={NotFound} />
           <Redirect from="/" exact to="/accueil" />
           <Redirect to="/not-found" />
